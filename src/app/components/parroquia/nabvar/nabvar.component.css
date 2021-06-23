@@ -1,0 +1,28 @@
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.contenido{
+
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: absolute;
+}
+
+.negrita{
+
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.aligned-with-icon{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}

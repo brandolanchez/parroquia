@@ -1,0 +1,48 @@
+<mat-toolbar color= "primary">
+
+    <button mat-icon-button>
+
+        <mat-icon (click)= "sidenav.toggle();" >menu</mat-icon>
+    </button>
+        <span>URBE</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>account_circle</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+      </mat-toolbar>
+      <mat-sidenav-container>
+          <mat-sidenav #sidenav opened= "true"> 
+            <mat-list>
+
+               
+                    <a mat-list-item class="negrita">Menu principal</a>
+
+                    
+                    
+                    <mat-icon>settings</mat-icon><span class="aligned-with-icon">Mantenimeinto</span>
+                    
+                
+                    
+                <br>
+                    <mat-icon>library_books</mat-icon><span class="aligned-with-icon">Catalogo</span>
+                    
+                    
+
+              
+
+
+            </mat-list>
+
+
+          </mat-sidenav>
+        <mat-sidenav-content class="contenido">
+
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+
+       
+    
+    
